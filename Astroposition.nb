@@ -10,17 +10,20 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     30704,        749]
-NotebookOptionsPosition[     23123,        596]
-NotebookOutlinePosition[     27570,        696]
-CellTagsIndexPosition[     26934,        674]
+NotebookDataLength[     50731,       1073]
+NotebookOptionsPosition[     42857,        914]
+NotebookOutlinePosition[     47307,       1014]
+CellTagsIndexPosition[     46671,        992]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Your Title Here", "Title",ExpressionUUID->"b9e6fe14-67c5-4f7d-9ec0-13c361826e91"],
+Cell["Where Solar System Bodies are", "Title",
+ CellChangeTimes->{{3.882901345560136*^9, 
+  3.8829013685243006`*^9}},ExpressionUUID->"b9e6fe14-67c5-4f7d-9ec0-\
+13c361826e91"],
 
 Cell[TextData[{
  "Initialization Code",
@@ -97,11 +100,326 @@ control the Flash preview for the Demonstration with the ",
  CellTags->
   "Manipulate",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Manipulate", "[", 
-  RowBox[{"XXXX", ",", 
-   RowBox[{"{", "}"}]}], "]"}]], "Input",ExpressionUUID->"1c8a51fe-61b3-446f-\
-b3f3-b27c622b6763"]
+  RowBox[{
+   RowBox[{"AstroPosition", "[", "$solar$system$body", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "$solar$system$body", ",", "\"\<Sun\>\"", ",", 
+       "\"\<Solar system body\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Sun\>\"", ",", "\"\<Mercury\>\"", ",", "\"\<Venus\>\"", ",", 
+       "\"\<Earth\>\"", ",", "\"\<Mars\>\"", ",", "\"\<Jupiter\>\"", ",", 
+       "\"\<Saturn\>\"", ",", "\"\<Uranus\>\"", ",", "\"\<Neptune\>\"", ",", 
+       "\"\<Moon\>\"", ",", "\"\<Phobos\>\"", ",", "\"\<Deimos\>\"", ",", 
+       "\"\<Dimorphos\>\"", ",", "\"\<Dactyl\>\"", ",", "\"\<Metis\>\"", ",", 
+       "\"\<Adrastea\>\"", ",", "\"\<Amalthea\>\"", ",", "\"\<Thebe\>\"", 
+       ",", "\"\<Io\>\"", ",", "\"\<Europa\>\"", ",", "\"\<Ganymede\>\"", 
+       ",", "\"\<Callisto\>\"", ",", "\"\<Themisto\>\"", ",", "\"\<Leda\>\"", 
+       ",", "\"\<Himalia\>\"", ",", "\"\<S2017J4\>\"", ",", 
+       "\"\<Lysithea\>\"", ",", "\"\<Elara\>\"", ",", "\"\<S2000J11\>\"", 
+       ",", "\"\<S2003J12\>\"", ",", "\"\<Carpo\>\"", ",", "\"\<Valetudo\>\"",
+        ",", "\"\<Euporie\>\"", ",", "\"\<S2003J3\>\"", ",", 
+       "\"\<S2003J18\>\"", ",", "\"\<S2017J7\>\"", ",", "\"\<S2017J3\>\"", 
+       ",", "\"\<S2016J1\>\"", ",", "\"\<Orthosie\>\"", ",", 
+       "\"\<Euanthe\>\"", ",", "\"\<Harpalyke\>\"", ",", "\"\<Praxidike\>\"", 
+       ",", "\"\<Thyone\>\"", ",", "\"\<S2003J16\>\"", ",", "\"\<S2010J1\>\"",
+        ",", "\"\<S2010J2\>\"", ",", "\"\<Iocaste\>\"", ",", "\"\<Mneme\>\"", 
+       ",", "\"\<Hermippe\>\"", ",", "\"\<Thelxinoe\>\"", ",", 
+       "\"\<Helike\>\"", ",", "\"\<Ananke\>\"", ",", "\"\<S2017J9\>\"", ",", 
+       "\"\<S2017J6\>\"", ",", "\"\<S2003J15\>\"", ",", "\"\<Eurydome\>\"", 
+       ",", "\"\<S2003J24\>\"", ",", "\"\<Arche\>\"", ",", "\"\<Herse\>\"", 
+       ",", "\"\<Pasithee\>\"", ",", "\"\<S2003J10\>\"", ",", 
+       "\"\<Chaldene\>\"", ",", "\"\<S2011J2\>\"", ",", "\"\<Isonoe\>\"", 
+       ",", "\"\<S2017J5\>\"", ",", "\"\<S2017J8\>\"", ",", "\"\<Erinome\>\"",
+        ",", "\"\<Kale\>\"", ",", "\"\<Aitne\>\"", ",", "\"\<S2017J2\>\"", 
+       ",", "\"\<Taygete\>\"", ",", "\"\<S2003J9\>\"", ",", "\"\<Carme\>\"", 
+       ",", "\"\<S2011J1\>\"", ",", "\"\<Sponde\>\"", ",", 
+       "\"\<Megaclite\>\"", ",", "\"\<S2003J5\>\"", ",", "\"\<S2003J19\>\"", 
+       ",", "\"\<S2017J1\>\"", ",", "\"\<S2003J23\>\"", ",", "\"\<Kalyke\>\"",
+        ",", "\"\<Kore\>\"", ",", "\"\<Pasiphae\>\"", ",", "\"\<Eukelade\>\"",
+        ",", "\"\<S2003J4\>\"", ",", "\"\<Sinope\>\"", ",", 
+       "\"\<Hegemone\>\"", ",", "\"\<Aoede\>\"", ",", "\"\<Kallichore\>\"", 
+       ",", "\"\<Autonoe\>\"", ",", "\"\<Callirrhoe\>\"", ",", 
+       "\"\<Cyllene\>\"", ",", "\"\<S2003J2\>\"", ",", "\"\<S2009S1\>\"", 
+       ",", "\"\<Pan\>\"", ",", "\"\<Daphnis\>\"", ",", "\"\<Atlas\>\"", ",", 
+       "\"\<Prometheus\>\"", ",", "\"\<Pandora\>\"", ",", 
+       "\"\<Epimetheus\>\"", ",", "\"\<Janus\>\"", ",", "\"\<Aegaeon\>\"", 
+       ",", "\"\<Mimas\>\"", ",", "\"\<Methone\>\"", ",", "\"\<Anthe\>\"", 
+       ",", "\"\<Pallene\>\"", ",", "\"\<Enceladus\>\"", ",", 
+       "\"\<Tethys\>\"", ",", "\"\<Calypso\>\"", ",", "\"\<Telesto\>\"", ",", 
+       "\"\<Polydeuces\>\"", ",", "\"\<Dione\>\"", ",", "\"\<Helene\>\"", 
+       ",", "\"\<Rhea\>\"", ",", "\"\<Titan\>\"", ",", "\"\<Hyperion\>\"", 
+       ",", "\"\<Iapetus\>\"", ",", "\"\<Kiviuq\>\"", ",", "\"\<Ijiraq\>\"", 
+       ",", "\"\<S2019S1\>\"", ",", "\"\<Phoebe\>\"", ",", "\"\<Paaliaq\>\"", 
+       ",", "\"\<Skathi\>\"", ",", "\"\<S2004S37\>\"", ",", 
+       "\"\<Albiorix\>\"", ",", "\"\<S2007S2\>\"", ",", "\"\<S2004S29\>\"", 
+       ",", "\"\<Bebhionn\>\"", ",", "\"\<Erriapo\>\"", ",", 
+       "\"\<Siarnaq\>\"", ",", "\"\<S2004S31\>\"", ",", "\"\<Skoll\>\"", ",", 
+       "\"\<Tarqeq\>\"", ",", "\"\<Tarvos\>\"", ",", "\"\<Greip\>\"", ",", 
+       "\"\<S2004S13\>\"", ",", "\"\<Hyrrokkin\>\"", ",", 
+       "\"\<Mundilfari\>\"", ",", "\"\<S2006S1\>\"", ",", "\"\<Jarnsaxa\>\"", 
+       ",", "\"\<Narvi\>\"", ",", "\"\<Bergelmir\>\"", ",", 
+       "\"\<S2004S20\>\"", ",", "\"\<S2004S17\>\"", ",", "\"\<Suttungr\>\"", 
+       ",", "\"\<Hati\>\"", ",", "\"\<S2004S12\>\"", ",", "\"\<S2004S27\>\"", 
+       ",", "\"\<Bestla\>\"", ",", "\"\<Farbauti\>\"", ",", "\"\<Thrymr\>\"", 
+       ",", "\"\<S2007S3\>\"", ",", "\"\<S2004S22\>\"", ",", "\"\<Aegir\>\"", 
+       ",", "\"\<S2004S30\>\"", ",", "\"\<S2004S7\>\"", ",", 
+       "\"\<S2004S23\>\"", ",", "\"\<S2004S25\>\"", ",", "\"\<S2004S32\>\"", 
+       ",", "\"\<S2006S3\>\"", ",", "\"\<S2004S38\>\"", ",", 
+       "\"\<S2004S28\>\"", ",", "\"\<Kari\>\"", ",", "\"\<S2004S35\>\"", ",", 
+       "\"\<Fenrir\>\"", ",", "\"\<S2004S21\>\"", ",", "\"\<Surtur\>\"", ",", 
+       "\"\<S2004S24\>\"", ",", "\"\<Ymir\>\"", ",", "\"\<Loge\>\"", ",", 
+       "\"\<S2004S36\>\"", ",", "\"\<S2004S39\>\"", ",", "\"\<S2004S33\>\"", 
+       ",", "\"\<S2004S34\>\"", ",", "\"\<Fornjot\>\"", ",", 
+       "\"\<S2004S26\>\"", ",", "\"\<Cordelia\>\"", ",", "\"\<Ophelia\>\"", 
+       ",", "\"\<Bianca\>\"", ",", "\"\<Cressida\>\"", ",", 
+       "\"\<Desdemona\>\"", ",", "\"\<Juliet\>\"", ",", "\"\<Portia\>\"", 
+       ",", "\"\<Rosalind\>\"", ",", "\"\<Cupid\>\"", ",", "\"\<Belinda\>\"", 
+       ",", "\"\<Perdita\>\"", ",", "\"\<Puck\>\"", ",", "\"\<Mab\>\"", ",", 
+       "\"\<Miranda\>\"", ",", "\"\<Ariel\>\"", ",", "\"\<Umbriel\>\"", ",", 
+       "\"\<Titania\>\"", ",", "\"\<Oberon\>\"", ",", "\"\<Francisco\>\"", 
+       ",", "\"\<Caliban\>\"", ",", "\"\<Stephano\>\"", ",", 
+       "\"\<Trinculo\>\"", ",", "\"\<Sycorax\>\"", ",", "\"\<Margaret\>\"", 
+       ",", "\"\<Prospero\>\"", ",", "\"\<Setebos\>\"", ",", 
+       "\"\<Ferdinand\>\"", ",", "\"\<Naiad\>\"", ",", "\"\<Thalassa\>\"", 
+       ",", "\"\<Despina\>\"", ",", "\"\<Galatea\>\"", ",", "\"\<Larissa\>\"",
+        ",", "\"\<S2004N1\>\"", ",", "\"\<Proteus\>\"", ",", "\"\<Triton\>\"",
+        ",", "\"\<Nereid\>\"", ",", "\"\<Halimede\>\"", ",", "\"\<Sao\>\"", 
+       ",", "\"\<Laomedeia\>\"", ",", "\"\<Psamathe\>\"", ",", "\"\<Neso\>\"",
+        ",", "\"\<Charon\>\"", ",", "\"\<S2012P1\>\"", ",", "\"\<Nix\>\"", 
+       ",", "\"\<S2011P1\>\"", ",", "\"\<Hydra\>\"", ",", 
+       "\"\<Dysnomia\>\""}], "}"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8829013793631907`*^9, 3.882901531062421*^9}, {
+  3.8829015688833866`*^9, 3.882901596333294*^9}, {3.882901677265493*^9, 
+  3.8829017023136463`*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"1c8a51fe-61b3-446f-b3f3-b27c622b6763"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`$solar$system$body$$ = "Himalia", 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`$solar$system$body$$], "Sun", "Solar system body"}, {
+      "Sun", "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", 
+       "Uranus", "Neptune", "Moon", "Phobos", "Deimos", "Dimorphos", "Dactyl",
+        "Metis", "Adrastea", "Amalthea", "Thebe", "Io", "Europa", "Ganymede", 
+       "Callisto", "Themisto", "Leda", "Himalia", "S2017J4", "Lysithea", 
+       "Elara", "S2000J11", "S2003J12", "Carpo", "Valetudo", "Euporie", 
+       "S2003J3", "S2003J18", "S2017J7", "S2017J3", "S2016J1", "Orthosie", 
+       "Euanthe", "Harpalyke", "Praxidike", "Thyone", "S2003J16", "S2010J1", 
+       "S2010J2", "Iocaste", "Mneme", "Hermippe", "Thelxinoe", "Helike", 
+       "Ananke", "S2017J9", "S2017J6", "S2003J15", "Eurydome", "S2003J24", 
+       "Arche", "Herse", "Pasithee", "S2003J10", "Chaldene", "S2011J2", 
+       "Isonoe", "S2017J5", "S2017J8", "Erinome", "Kale", "Aitne", "S2017J2", 
+       "Taygete", "S2003J9", "Carme", "S2011J1", "Sponde", "Megaclite", 
+       "S2003J5", "S2003J19", "S2017J1", "S2003J23", "Kalyke", "Kore", 
+       "Pasiphae", "Eukelade", "S2003J4", "Sinope", "Hegemone", "Aoede", 
+       "Kallichore", "Autonoe", "Callirrhoe", "Cyllene", "S2003J2", "S2009S1",
+        "Pan", "Daphnis", "Atlas", "Prometheus", "Pandora", "Epimetheus", 
+       "Janus", "Aegaeon", "Mimas", "Methone", "Anthe", "Pallene", 
+       "Enceladus", "Tethys", "Calypso", "Telesto", "Polydeuces", "Dione", 
+       "Helene", "Rhea", "Titan", "Hyperion", "Iapetus", "Kiviuq", "Ijiraq", 
+       "S2019S1", "Phoebe", "Paaliaq", "Skathi", "S2004S37", "Albiorix", 
+       "S2007S2", "S2004S29", "Bebhionn", "Erriapo", "Siarnaq", "S2004S31", 
+       "Skoll", "Tarqeq", "Tarvos", "Greip", "S2004S13", "Hyrrokkin", 
+       "Mundilfari", "S2006S1", "Jarnsaxa", "Narvi", "Bergelmir", "S2004S20", 
+       "S2004S17", "Suttungr", "Hati", "S2004S12", "S2004S27", "Bestla", 
+       "Farbauti", "Thrymr", "S2007S3", "S2004S22", "Aegir", "S2004S30", 
+       "S2004S7", "S2004S23", "S2004S25", "S2004S32", "S2006S3", "S2004S38", 
+       "S2004S28", "Kari", "S2004S35", "Fenrir", "S2004S21", "Surtur", 
+       "S2004S24", "Ymir", "Loge", "S2004S36", "S2004S39", "S2004S33", 
+       "S2004S34", "Fornjot", "S2004S26", "Cordelia", "Ophelia", "Bianca", 
+       "Cressida", "Desdemona", "Juliet", "Portia", "Rosalind", "Cupid", 
+       "Belinda", "Perdita", "Puck", "Mab", "Miranda", "Ariel", "Umbriel", 
+       "Titania", "Oberon", "Francisco", "Caliban", "Stephano", "Trinculo", 
+       "Sycorax", "Margaret", "Prospero", "Setebos", "Ferdinand", "Naiad", 
+       "Thalassa", "Despina", "Galatea", "Larissa", "S2004N1", "Proteus", 
+       "Triton", "Nereid", "Halimede", "Sao", "Laomedeia", "Psamathe", "Neso",
+        "Charon", "S2012P1", "Nix", "S2011P1", "Hydra", "Dysnomia"}}}, 
+    Typeset`size$$ = {256.171875, {19., 24.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`$solar$system$body$$ = "Sun"}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      AstroPosition[$CellContext`$solar$system$body$$], 
+      "Specifications" :> {{{$CellContext`$solar$system$body$$, "Sun", 
+          "Solar system body"}, {
+         "Sun", "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", 
+          "Uranus", "Neptune", "Moon", "Phobos", "Deimos", "Dimorphos", 
+          "Dactyl", "Metis", "Adrastea", "Amalthea", "Thebe", "Io", "Europa", 
+          "Ganymede", "Callisto", "Themisto", "Leda", "Himalia", "S2017J4", 
+          "Lysithea", "Elara", "S2000J11", "S2003J12", "Carpo", "Valetudo", 
+          "Euporie", "S2003J3", "S2003J18", "S2017J7", "S2017J3", "S2016J1", 
+          "Orthosie", "Euanthe", "Harpalyke", "Praxidike", "Thyone", 
+          "S2003J16", "S2010J1", "S2010J2", "Iocaste", "Mneme", "Hermippe", 
+          "Thelxinoe", "Helike", "Ananke", "S2017J9", "S2017J6", "S2003J15", 
+          "Eurydome", "S2003J24", "Arche", "Herse", "Pasithee", "S2003J10", 
+          "Chaldene", "S2011J2", "Isonoe", "S2017J5", "S2017J8", "Erinome", 
+          "Kale", "Aitne", "S2017J2", "Taygete", "S2003J9", "Carme", 
+          "S2011J1", "Sponde", "Megaclite", "S2003J5", "S2003J19", "S2017J1", 
+          "S2003J23", "Kalyke", "Kore", "Pasiphae", "Eukelade", "S2003J4", 
+          "Sinope", "Hegemone", "Aoede", "Kallichore", "Autonoe", 
+          "Callirrhoe", "Cyllene", "S2003J2", "S2009S1", "Pan", "Daphnis", 
+          "Atlas", "Prometheus", "Pandora", "Epimetheus", "Janus", "Aegaeon", 
+          "Mimas", "Methone", "Anthe", "Pallene", "Enceladus", "Tethys", 
+          "Calypso", "Telesto", "Polydeuces", "Dione", "Helene", "Rhea", 
+          "Titan", "Hyperion", "Iapetus", "Kiviuq", "Ijiraq", "S2019S1", 
+          "Phoebe", "Paaliaq", "Skathi", "S2004S37", "Albiorix", "S2007S2", 
+          "S2004S29", "Bebhionn", "Erriapo", "Siarnaq", "S2004S31", "Skoll", 
+          "Tarqeq", "Tarvos", "Greip", "S2004S13", "Hyrrokkin", "Mundilfari", 
+          "S2006S1", "Jarnsaxa", "Narvi", "Bergelmir", "S2004S20", "S2004S17",
+           "Suttungr", "Hati", "S2004S12", "S2004S27", "Bestla", "Farbauti", 
+          "Thrymr", "S2007S3", "S2004S22", "Aegir", "S2004S30", "S2004S7", 
+          "S2004S23", "S2004S25", "S2004S32", "S2006S3", "S2004S38", 
+          "S2004S28", "Kari", "S2004S35", "Fenrir", "S2004S21", "Surtur", 
+          "S2004S24", "Ymir", "Loge", "S2004S36", "S2004S39", "S2004S33", 
+          "S2004S34", "Fornjot", "S2004S26", "Cordelia", "Ophelia", "Bianca", 
+          "Cressida", "Desdemona", "Juliet", "Portia", "Rosalind", "Cupid", 
+          "Belinda", "Perdita", "Puck", "Mab", "Miranda", "Ariel", "Umbriel", 
+          "Titania", "Oberon", "Francisco", "Caliban", "Stephano", "Trinculo",
+           "Sycorax", "Margaret", "Prospero", "Setebos", "Ferdinand", "Naiad",
+           "Thalassa", "Despina", "Galatea", "Larissa", "S2004N1", "Proteus", 
+          "Triton", "Nereid", "Halimede", "Sao", "Laomedeia", "Psamathe", 
+          "Neso", "Charon", "S2012P1", "Nix", "S2011P1", "Hydra", 
+          "Dysnomia"}}}, "Options" :> {}, 
+      "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{442., {48.8544921875, 54.1455078125}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.882901448239251*^9, {3.8829014813643494`*^9, 3.882901531562087*^9}, {
+   3.882901583766078*^9, 3.8829015971732693`*^9}, {3.882901680189077*^9, 
+   3.882901702916917*^9}},
+ CellLabel->"Out[11]=",
+ CellID->173748546,ExpressionUUID->"38e89474-3145-47e5-9acd-d6a56d8409ef"],
+
+Cell[BoxData[
+ DynamicModuleBox[{
+  Progress`ProgressDump`forceRedraw$$ = {{}, {{3}, {4}, {5}}}, 
+  Progress`ProgressDump`open$$ = True, Progress`ProgressDump`clock$$ = 2, 
+  Progress`ProgressDump`maxTime$$ = DirectedInfinity[1]}, 
+  OverlayBox[{
+   AnimatorBox[Dynamic[Progress`ProgressDump`clock$$], {2., 
+     DirectedInfinity[1], 0.4},
+    AnimationRate->1,
+    AnimationRunTime->0.,
+    AppearanceElements->None,
+    ImageSize->{1, 1}], 
+   DynamicWrapperBox[
+    DynamicBox[ToBoxes[
+      Progress`GenerateProgressPanel[<|
+       "ByteCountCurrent" :> Astronomy`SPICEDump`currentBytes, 
+        "ByteCountTotal" :> Astronomy`SPICEDump`totalBytes, "ElapsedTime" :> 
+        Automatic, "Progress" :> Automatic, "RemainingTime" :> Automatic, 
+        "Text" :> 
+        "Downloading ephemeris for moons of Jupiter (2000-2100)"|>, <|{
+        "DelayedTask" -> ScheduledTaskObject[54, 
+           HoldForm[AppendTo[Progress`ProgressDump`this$state$46709, 
+              Progress`ProgressDump`CreateProgressState[
+              Progress`ProgressDump`parameters$46709, 
+               Progress`ProgressDump`info$46709, Deinitialization :> Quiet[
+                 TaskRemove[Astronomy`SPICEDump`task]]]]; 
+            Progress`ProgressDump`ProgressInit[
+             Progress`ProgressDump`this$state$46709]; Null], {2, 1}, 
+           Automatic, True, "AutoRemove" -> False, "EpilogFunction" :> Null, 
+           "TaskGroup" -> "Global`"], "State" :> 
+         Progress`ProgressDump`this$state$46709, "Title" -> "Computing...", 
+         "Type" -> "Panel", "Environment" -> "Notebook", 
+         "Parameters" -> <|
+          "ByteCountCurrent" :> Astronomy`SPICEDump`currentBytes, 
+           "ByteCountTotal" :> Astronomy`SPICEDump`totalBytes, "ElapsedTime" :> 
+           Automatic, "Progress" :> Automatic, "RemainingTime" :> Automatic, 
+           "Text" :> 
+           "Downloading ephemeris for moons of Jupiter (2000-2100)"|>, 
+         "PreemptibleQ" -> True, "ConsoleQ" -> True, "Evaluator" -> "Local", 
+         "EvaluationCell" -> 
+         CellObject[
+          "38e89474-3145-47e5-9acd-d6a56d8409ef", 
+           "31e8c264-957d-4923-a808-7d3a9285f9b9"], "TimeStart" -> 
+         3.8828837099912675`17.341729373044817*^9, "TimeStartLocal" -> 
+         3.8828837099912675`17.341729373044817*^9, "InitialTimeEstimate" -> 
+         Indeterminate, "UpdateInterval" -> 0.4, "OuterUpdateInterval" -> 0.4,
+          "Buttons" -> None, "Optional" -> {}, "ContainerQ" -> False, 
+         "CreateContainerQ" -> False, "CurrentContainer" -> None, 
+         "PreviousContainer" -> None, "ContainerName" -> None, "Cell" -> 
+         Hold[Progress`ProgressDump`cell$46905], "Clock" :> 
+         Dynamic[Progress`ProgressDump`clock$$], "Redraw" -> 
+         Progress`ProgressDump`forceRedraw$$, "Open" :> 
+         Dynamic[Progress`ProgressDump`open$$]}|>], StandardForm],
+     ImageSizeCache->{352., {33.900390625, 40.099609375}},
+     TrackedSymbols:>{Progress`ProgressDump`forceRedraw$$}], Refresh[
+    Progress`ProgressDump`forceRedraw$$ = 
+     With[{Progress`ProgressDump`values = Quiet[
+          
+          Values[<|"ByteCountCurrent" :> Astronomy`SPICEDump`currentBytes, 
+            "ByteCountTotal" :> Astronomy`SPICEDump`totalBytes, "ElapsedTime" :> 
+            Automatic, "Progress" :> Automatic, "RemainingTime" :> Automatic, 
+            "Text" :> 
+            "Downloading ephemeris for moons of Jupiter (2000-2100)"|>]]}, 
+       Map[
+       Position[Progress`ProgressDump`values, #, Infinity]& , {
+        None, Automatic}]], UpdateInterval -> 
+     Lookup[<|"DelayedTask" -> ScheduledTaskObject[54, 
+          HoldForm[AppendTo[Progress`ProgressDump`this$state$46709, 
+             Progress`ProgressDump`CreateProgressState[
+             Progress`ProgressDump`parameters$46709, 
+              Progress`ProgressDump`info$46709, Deinitialization :> Quiet[
+                TaskRemove[Astronomy`SPICEDump`task]]]]; 
+           Progress`ProgressDump`ProgressInit[
+            Progress`ProgressDump`this$state$46709]; Null], {2, 1}, Automatic,
+           True, "AutoRemove" -> False, "EpilogFunction" :> Null, "TaskGroup" -> 
+          "Global`"], "State" :> Progress`ProgressDump`this$state$46709, 
+        "Title" -> "Computing...", "Type" -> "Panel", "Environment" -> 
+        "Notebook", 
+        "Parameters" -> <|
+         "ByteCountCurrent" :> Astronomy`SPICEDump`currentBytes, 
+          "ByteCountTotal" :> Astronomy`SPICEDump`totalBytes, "ElapsedTime" :> 
+          Automatic, "Progress" :> Automatic, "RemainingTime" :> Automatic, 
+          "Text" :> 
+          "Downloading ephemeris for moons of Jupiter (2000-2100)"|>, 
+        "PreemptibleQ" -> True, "ConsoleQ" -> True, "Evaluator" -> "Local", 
+        "EvaluationCell" -> 
+        CellObject[
+         "38e89474-3145-47e5-9acd-d6a56d8409ef", 
+          "31e8c264-957d-4923-a808-7d3a9285f9b9"], "TimeStart" -> 
+        3.8828837099912675`17.341729373044817*^9, "TimeStartLocal" -> 
+        3.8828837099912675`17.341729373044817*^9, "InitialTimeEstimate" -> 
+        Indeterminate, "UpdateInterval" -> 0.4, "OuterUpdateInterval" -> 0.4, 
+        "Buttons" -> None, "Optional" -> {}, "ContainerQ" -> False, 
+        "CreateContainerQ" -> False, "CurrentContainer" -> None, 
+        "PreviousContainer" -> None, "ContainerName" -> None, "Cell" -> 
+        Hold[Progress`ProgressDump`cell$46905], "Clock" -> Dynamic[None]|>, 
+       "OuterUpdateInterval"], TrackedSymbols :> {}],
+    ImageSizeCache->{352., {33.900390625, 40.099609375}}]}, All, 2],
+  DynamicModuleValues:>{}]], "PrintTemporary",
+ ShowCellLabel->True,
+ CellChangeTimes->{3.882901712009599*^9},
+ CellLabel->"",
+ CellID->352862344,ExpressionUUID->"b548848d-78b8-4b51-90c5-689b060f24fc"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -616,144 +934,148 @@ ExpressionUUID->"3520f34b-4726-4b84-89c5-abc8caf079b7"
 (*CellTagsOutline
 CellTagsIndex->{
  "Initialization Code"->{
-  Cell[670, 24, 1833, 39, 67, "InitializationSection",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f",
+  Cell[757, 27, 1833, 39, 67, "InitializationSection",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f",
    CellTags->"Initialization Code"]},
  "Manipulate"->{
-  Cell[2528, 67, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
+  Cell[2615, 70, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
    CellTags->"Manipulate"]},
  "Caption"->{
-  Cell[4257, 108, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
+  Cell[23991, 426, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
    CellTags->"Caption"]},
  "Thumbnail"->{
-  Cell[5523, 139, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
+  Cell[25257, 457, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
    CellTags->"Thumbnail"]},
  "Snapshots"->{
-  Cell[7823, 203, 1018, 22, 70, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
+  Cell[27557, 521, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
    CellTags->"Snapshots"]},
  "Details"->{
-  Cell[10113, 265, 1796, 36, 70, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
+  Cell[29847, 583, 1796, 36, 70, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
    CellTags->"Details"]},
  "Control Suggestions"->{
-  Cell[11934, 305, 1131, 28, 70, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
+  Cell[31668, 623, 1131, 28, 70, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
    CellTags->"Control Suggestions"]},
  "ResizeImages"->{
-  Cell[13068, 335, 407, 9, 70, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
+  Cell[32802, 653, 407, 9, 70, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
    CellTags->"ResizeImages"]},
  "RotateAndZoomIn3D"->{
-  Cell[13478, 346, 783, 19, 70, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
+  Cell[33212, 664, 783, 19, 70, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
    CellTags->"RotateAndZoomIn3D"]},
  "DragLocators"->{
-  Cell[14264, 367, 435, 12, 70, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
+  Cell[33998, 685, 435, 12, 70, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
    CellTags->"DragLocators"]},
  "CreateAndDeleteLocators"->{
-  Cell[14702, 381, 739, 18, 70, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
+  Cell[34436, 699, 739, 18, 70, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
    CellTags->"CreateAndDeleteLocators"]},
  "SliderZoom"->{
-  Cell[15444, 401, 944, 23, 70, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
+  Cell[35178, 719, 944, 23, 70, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
    CellTags->"SliderZoom"]},
  "GamepadControls"->{
-  Cell[16391, 426, 469, 11, 70, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
+  Cell[36125, 744, 469, 11, 70, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
    CellTags->"GamepadControls"]},
  "AutomaticAnimation"->{
-  Cell[16863, 439, 1564, 33, 70, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
+  Cell[36597, 757, 1564, 33, 70, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
    CellTags->"AutomaticAnimation"]},
  "BookmarkAnimation"->{
-  Cell[18430, 474, 1008, 23, 70, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
+  Cell[38164, 792, 1008, 23, 70, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
    CellTags->"BookmarkAnimation"]},
  "Search Terms"->{
-  Cell[19453, 500, 1073, 24, 70, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
+  Cell[39187, 818, 1073, 24, 70, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
    CellTags->"Search Terms"]},
  "Related Links"->{
-  Cell[20529, 526, 1191, 28, 70, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
+  Cell[40263, 844, 1191, 28, 70, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
    CellTags->"Related Links"]},
  "Authoring Information"->{
-  Cell[21745, 558, 1158, 28, 70, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
+  Cell[41479, 876, 1158, 28, 70, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
    CellTags->"Authoring Information"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 24001, 617},
- {"Manipulate", 24166, 620},
- {"Caption", 24316, 623},
- {"Thumbnail", 24473, 626},
- {"Snapshots", 24624, 629},
- {"Details", 24773, 632},
- {"Control Suggestions", 24931, 635},
- {"ResizeImages", 25105, 638},
- {"RotateAndZoomIn3D", 25268, 641},
- {"DragLocators", 25432, 644},
- {"CreateAndDeleteLocators", 25602, 647},
- {"SliderZoom", 25770, 650},
- {"GamepadControls", 25930, 653},
- {"AutomaticAnimation", 26098, 656},
- {"BookmarkAnimation", 26269, 659},
- {"Search Terms", 26434, 662},
- {"Related Links", 26595, 665},
- {"Authoring Information", 26766, 668}
+ {"Initialization Code", 43735, 935},
+ {"Manipulate", 43900, 938},
+ {"Caption", 44050, 941},
+ {"Thumbnail", 44208, 944},
+ {"Snapshots", 44360, 947},
+ {"Details", 44510, 950},
+ {"Control Suggestions", 44668, 953},
+ {"ResizeImages", 44842, 956},
+ {"RotateAndZoomIn3D", 45005, 959},
+ {"DragLocators", 45169, 962},
+ {"CreateAndDeleteLocators", 45339, 965},
+ {"SliderZoom", 45507, 968},
+ {"GamepadControls", 45667, 971},
+ {"AutomaticAnimation", 45835, 974},
+ {"BookmarkAnimation", 46006, 977},
+ {"Search Terms", 46171, 980},
+ {"Related Links", 46332, 983},
+ {"Authoring Information", 46503, 986}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 87, 0, 98, "Title",ExpressionUUID->"b9e6fe14-67c5-4f7d-9ec0-13c361826e91"],
-Cell[670, 24, 1833, 39, 67, "InitializationSection",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f",
+Cell[580, 22, 174, 3, 98, "Title",ExpressionUUID->"b9e6fe14-67c5-4f7d-9ec0-13c361826e91"],
+Cell[757, 27, 1833, 39, 67, "InitializationSection",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f",
  CellTags->"Initialization Code"],
 Cell[CellGroupData[{
-Cell[2528, 67, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
+Cell[2615, 70, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
  CellTags->"Manipulate"],
-Cell[4055, 99, 165, 4, 25, "Input",ExpressionUUID->"1c8a51fe-61b3-446f-b3f3-b27c622b6763"]
+Cell[CellGroupData[{
+Cell[4164, 104, 6572, 97, 337, "Input",ExpressionUUID->"1c8a51fe-61b3-446f-b3f3-b27c622b6763"],
+Cell[10739, 203, 7478, 113, 144, "Output",ExpressionUUID->"38e89474-3145-47e5-9acd-d6a56d8409ef",
+ CellID->173748546],
+Cell[18220, 318, 5722, 102, 85, "PrintTemporary",ExpressionUUID->"b548848d-78b8-4b51-90c5-689b060f24fc",
+ CellID->352862344]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4257, 108, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
+Cell[23991, 426, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
  CellTags->"Caption"],
-Cell[5398, 134, 88, 0, 23, "ManipulateCaption",ExpressionUUID->"71921e4e-c8c2-4f05-96e3-4e3047349e9a"]
+Cell[25132, 452, 88, 0, 23, "ManipulateCaption",ExpressionUUID->"71921e4e-c8c2-4f05-96e3-4e3047349e9a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5523, 139, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
+Cell[25257, 457, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
  CellTags->"Thumbnail"],
-Cell[6531, 163, 1255, 35, 229, "Output",ExpressionUUID->"58c040db-333b-4c73-bea5-902ccd2013e9"]
+Cell[26265, 481, 1255, 35, 229, "Output",ExpressionUUID->"58c040db-333b-4c73-bea5-902ccd2013e9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7823, 203, 1018, 22, 70, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
+Cell[27557, 521, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
  CellTags->"Snapshots"],
-Cell[8844, 227, 1254, 35, 70, "Output",ExpressionUUID->"28ce2d21-e862-4a50-b19b-1b190171b769"]
+Cell[28578, 545, 1254, 35, 229, "Output",ExpressionUUID->"28ce2d21-e862-4a50-b19b-1b190171b769"]
 }, Open  ]],
-Cell[10113, 265, 1796, 36, 70, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
+Cell[29847, 583, 1796, 36, 70, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
  CellTags->"Details"],
 Cell[CellGroupData[{
-Cell[11934, 305, 1131, 28, 70, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
+Cell[31668, 623, 1131, 28, 70, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
  CellTags->"Control Suggestions"],
-Cell[13068, 335, 407, 9, 70, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
+Cell[32802, 653, 407, 9, 70, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
  CellTags->"ResizeImages"],
-Cell[13478, 346, 783, 19, 70, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
+Cell[33212, 664, 783, 19, 70, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
  CellTags->"RotateAndZoomIn3D"],
-Cell[14264, 367, 435, 12, 70, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
+Cell[33998, 685, 435, 12, 70, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
  CellTags->"DragLocators"],
-Cell[14702, 381, 739, 18, 70, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
+Cell[34436, 699, 739, 18, 70, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
  CellTags->"CreateAndDeleteLocators"],
-Cell[15444, 401, 944, 23, 70, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
+Cell[35178, 719, 944, 23, 70, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
  CellTags->"SliderZoom"],
-Cell[16391, 426, 469, 11, 70, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
+Cell[36125, 744, 469, 11, 70, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
  CellTags->"GamepadControls"],
-Cell[16863, 439, 1564, 33, 70, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
+Cell[36597, 757, 1564, 33, 70, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
  CellTags->"AutomaticAnimation"],
-Cell[18430, 474, 1008, 23, 70, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
+Cell[38164, 792, 1008, 23, 70, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
-Cell[19453, 500, 1073, 24, 70, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
+Cell[39187, 818, 1073, 24, 70, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
  CellTags->"Search Terms"],
-Cell[20529, 526, 1191, 28, 70, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
+Cell[40263, 844, 1191, 28, 70, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
  CellTags->"Related Links"],
 Cell[CellGroupData[{
-Cell[21745, 558, 1158, 28, 70, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
+Cell[41479, 876, 1158, 28, 70, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
  CellTags->"Authoring Information"],
-Cell[22906, 588, 189, 4, 70, "Author",ExpressionUUID->"e6a077c9-f528-4852-97e7-764f2f3a1895"]
+Cell[42640, 906, 189, 4, 70, "Author",ExpressionUUID->"e6a077c9-f528-4852-97e7-764f2f3a1895"]
 }, Open  ]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
