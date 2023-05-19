@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     30930,        756]
-NotebookOptionsPosition[     23349,        603]
-NotebookOutlinePosition[     27795,        703]
-CellTagsIndexPosition[     27159,        681]
+NotebookDataLength[     31364,        763]
+NotebookOptionsPosition[     23667,        608]
+NotebookOutlinePosition[     28112,        708]
+CellTagsIndexPosition[     27476,        686]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -105,10 +105,10 @@ control the Flash preview for the Demonstration with the ",
   "Manipulate",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587"],
 
 Cell[BoxData[
- RowBox[{"Manipulate", "[", 
-  RowBox[{"XXXX", ",", 
-   RowBox[{"{", "}"}]}], "]"}]], "Input",ExpressionUUID->"1c8a51fe-61b3-446f-\
-b3f3-b27c622b6763"]
+ RowBox[{"Manipulate", "[", "coord", "]"}]], "Input",
+ CellChangeTimes->{{3.8934434500504656`*^9, 
+  3.8934434507822857`*^9}},ExpressionUUID->"1c8a51fe-61b3-446f-b3f3-\
+b27c622b6763"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -593,16 +593,21 @@ other than Demonstrations authors, please see the detailed ",
   "Authoring \
 Information",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a"],
 
-Cell["Contributed by: XXXX", "Author",
+Cell["Contributed by: Peter Cullen Burbery", "Author",
  CellChangeTimes->{
-  3.35696210375764*^9, {3.432333043774981*^9, 
-   3.432333045441087*^9}},ExpressionUUID->"e6a077c9-f528-4852-97e7-\
-764f2f3a1895"]
+  3.35696210375764*^9, {3.432333043774981*^9, 3.432333045441087*^9}, {
+   3.893443401533533*^9, 
+   3.893443405013053*^9}},ExpressionUUID->"e6a077c9-f528-4852-97e7-\
+764f2f3a1895"],
+
+Cell["Based on the Wolfram Challenge How Round is a Country?", "DemoNotes",
+ CellChangeTimes->{{3.893443398004933*^9, 3.8934434155470953`*^9}},
+ CellID->24633067,ExpressionUUID->"7bfce92d-df91-4bed-b587-8e8a2a6f1483"]
 }, Open  ]]
 }, Open  ]]
 },
 ScreenStyleEnvironment->"DemonstrationSource",
-WindowSize->{1152., 585.6},
+WindowSize->{576., 585.6},
 WindowMargins->{{
   Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
 TaggingRules->{
@@ -623,31 +628,31 @@ ExpressionUUID->"3520f34b-4726-4b84-89c5-abc8caf079b7"
 (*CellTagsOutline
 CellTagsIndex->{
  "Authoring Information"->{
-  Cell[21971, 565, 1158, 28, 67, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
+  Cell[22003, 565, 1158, 28, 67, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
    CellTags->"Authoring Information"]},
  "AutomaticAnimation"->{
-  Cell[17089, 446, 1564, 33, 25, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
+  Cell[17121, 446, 1564, 33, 25, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
    CellTags->"AutomaticAnimation"]},
  "BookmarkAnimation"->{
-  Cell[18656, 481, 1008, 23, 25, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
+  Cell[18688, 481, 1008, 23, 25, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
    CellTags->"BookmarkAnimation"]},
  "Caption"->{
-  Cell[4483, 115, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
+  Cell[4515, 115, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
    CellTags->"Caption"]},
  "Control Suggestions"->{
-  Cell[12160, 312, 1131, 28, 67, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
+  Cell[12192, 312, 1131, 28, 67, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
    CellTags->"Control Suggestions"]},
  "CreateAndDeleteLocators"->{
-  Cell[14928, 388, 739, 18, 25, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
+  Cell[14960, 388, 739, 18, 25, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
    CellTags->"CreateAndDeleteLocators"]},
  "Details"->{
-  Cell[10339, 272, 1796, 36, 67, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
+  Cell[10371, 272, 1796, 36, 67, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
    CellTags->"Details"]},
  "DragLocators"->{
-  Cell[14490, 374, 435, 12, 25, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
+  Cell[14522, 374, 435, 12, 25, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
    CellTags->"DragLocators"]},
  "GamepadControls"->{
-  Cell[16617, 433, 469, 11, 25, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
+  Cell[16649, 433, 469, 11, 25, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
    CellTags->"GamepadControls"]},
  "Initialization Code"->{
   Cell[896, 31, 1833, 39, 67, "InitializationSection",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f",
@@ -656,106 +661,108 @@ CellTagsIndex->{
   Cell[2754, 74, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
    CellTags->"Manipulate"]},
  "Related Links"->{
-  Cell[20755, 533, 1191, 28, 67, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
+  Cell[20787, 533, 1191, 28, 67, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
    CellTags->"Related Links"]},
  "ResizeImages"->{
-  Cell[13294, 342, 407, 9, 25, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
+  Cell[13326, 342, 407, 9, 25, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
    CellTags->"ResizeImages"]},
  "RotateAndZoomIn3D"->{
-  Cell[13704, 353, 783, 19, 25, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
+  Cell[13736, 353, 783, 19, 25, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
    CellTags->"RotateAndZoomIn3D"]},
  "Search Terms"->{
-  Cell[19679, 507, 1073, 24, 67, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
+  Cell[19711, 507, 1073, 24, 67, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
    CellTags->"Search Terms"]},
  "SliderZoom"->{
-  Cell[15670, 408, 944, 23, 25, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
+  Cell[15702, 408, 944, 23, 25, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
    CellTags->"SliderZoom"]},
  "Snapshots"->{
-  Cell[8049, 210, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
+  Cell[8081, 210, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
    CellTags->"Snapshots"]},
  "Thumbnail"->{
-  Cell[5749, 146, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
+  Cell[5781, 146, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
    CellTags->"Thumbnail"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Authoring Information", 24228, 624},
- {"AutomaticAnimation", 24398, 627},
- {"BookmarkAnimation", 24569, 630},
- {"Caption", 24729, 633},
- {"Control Suggestions", 24896, 636},
- {"CreateAndDeleteLocators", 25081, 639},
- {"Details", 25246, 642},
- {"DragLocators", 25397, 645},
- {"GamepadControls", 25559, 648},
- {"Initialization Code", 25728, 651},
- {"Manipulate", 25893, 654},
- {"Related Links", 26049, 657},
- {"ResizeImages", 26211, 660},
- {"RotateAndZoomIn3D", 26374, 663},
- {"Search Terms", 26538, 666},
- {"SliderZoom", 26696, 669},
- {"Snapshots", 26850, 672},
- {"Thumbnail", 27001, 675}
+ {"Authoring Information", 24545, 629},
+ {"AutomaticAnimation", 24715, 632},
+ {"BookmarkAnimation", 24886, 635},
+ {"Caption", 25046, 638},
+ {"Control Suggestions", 25213, 641},
+ {"CreateAndDeleteLocators", 25398, 644},
+ {"Details", 25563, 647},
+ {"DragLocators", 25714, 650},
+ {"GamepadControls", 25876, 653},
+ {"Initialization Code", 26045, 656},
+ {"Manipulate", 26210, 659},
+ {"Related Links", 26366, 662},
+ {"ResizeImages", 26528, 665},
+ {"RotateAndZoomIn3D", 26691, 668},
+ {"Search Terms", 26855, 671},
+ {"SliderZoom", 27013, 674},
+ {"Snapshots", 27167, 677},
+ {"Thumbnail", 27318, 680}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[583, 22, 310, 7, 160, "Title",ExpressionUUID->"b9e6fe14-67c5-4f7d-9ec0-13c361826e91"],
+Cell[583, 22, 310, 7, 284, "Title",ExpressionUUID->"b9e6fe14-67c5-4f7d-9ec0-13c361826e91"],
 Cell[896, 31, 1833, 39, 67, "InitializationSection",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f",
  CellTags->"Initialization Code"],
 Cell[CellGroupData[{
 Cell[2754, 74, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
  CellTags->"Manipulate"],
-Cell[4281, 106, 165, 4, 25, "Input",ExpressionUUID->"1c8a51fe-61b3-446f-b3f3-b27c622b6763"]
+Cell[4281, 106, 197, 4, 25, "Input",ExpressionUUID->"1c8a51fe-61b3-446f-b3f3-b27c622b6763"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4483, 115, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
+Cell[4515, 115, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
  CellTags->"Caption"],
-Cell[5624, 141, 88, 0, 23, "ManipulateCaption",ExpressionUUID->"71921e4e-c8c2-4f05-96e3-4e3047349e9a"]
+Cell[5656, 141, 88, 0, 23, "ManipulateCaption",ExpressionUUID->"71921e4e-c8c2-4f05-96e3-4e3047349e9a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5749, 146, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
+Cell[5781, 146, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
  CellTags->"Thumbnail"],
-Cell[6757, 170, 1255, 35, 229, "Output",ExpressionUUID->"58c040db-333b-4c73-bea5-902ccd2013e9"]
+Cell[6789, 170, 1255, 35, 229, "Output",ExpressionUUID->"58c040db-333b-4c73-bea5-902ccd2013e9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8049, 210, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
+Cell[8081, 210, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
  CellTags->"Snapshots"],
-Cell[9070, 234, 1254, 35, 229, "Output",ExpressionUUID->"28ce2d21-e862-4a50-b19b-1b190171b769"]
+Cell[9102, 234, 1254, 35, 229, "Output",ExpressionUUID->"28ce2d21-e862-4a50-b19b-1b190171b769"]
 }, Open  ]],
-Cell[10339, 272, 1796, 36, 67, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
+Cell[10371, 272, 1796, 36, 67, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
  CellTags->"Details"],
 Cell[CellGroupData[{
-Cell[12160, 312, 1131, 28, 67, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
+Cell[12192, 312, 1131, 28, 67, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
  CellTags->"Control Suggestions"],
-Cell[13294, 342, 407, 9, 25, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
+Cell[13326, 342, 407, 9, 25, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
  CellTags->"ResizeImages"],
-Cell[13704, 353, 783, 19, 25, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
+Cell[13736, 353, 783, 19, 25, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
  CellTags->"RotateAndZoomIn3D"],
-Cell[14490, 374, 435, 12, 25, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
+Cell[14522, 374, 435, 12, 25, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
  CellTags->"DragLocators"],
-Cell[14928, 388, 739, 18, 25, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
+Cell[14960, 388, 739, 18, 25, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
  CellTags->"CreateAndDeleteLocators"],
-Cell[15670, 408, 944, 23, 25, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
+Cell[15702, 408, 944, 23, 25, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
  CellTags->"SliderZoom"],
-Cell[16617, 433, 469, 11, 25, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
+Cell[16649, 433, 469, 11, 25, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
  CellTags->"GamepadControls"],
-Cell[17089, 446, 1564, 33, 25, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
+Cell[17121, 446, 1564, 33, 25, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
  CellTags->"AutomaticAnimation"],
-Cell[18656, 481, 1008, 23, 25, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
+Cell[18688, 481, 1008, 23, 25, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
-Cell[19679, 507, 1073, 24, 67, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
+Cell[19711, 507, 1073, 24, 67, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
  CellTags->"Search Terms"],
-Cell[20755, 533, 1191, 28, 67, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
+Cell[20787, 533, 1191, 28, 67, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
  CellTags->"Related Links"],
 Cell[CellGroupData[{
-Cell[21971, 565, 1158, 28, 67, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
+Cell[22003, 565, 1158, 28, 67, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
  CellTags->"Authoring Information"],
-Cell[23132, 595, 189, 4, 70, "Author",ExpressionUUID->"e6a077c9-f528-4852-97e7-764f2f3a1895"]
+Cell[23164, 595, 255, 5, 23, "Author",ExpressionUUID->"e6a077c9-f528-4852-97e7-764f2f3a1895"],
+Cell[23422, 602, 217, 2, 23, "DemoNotes",ExpressionUUID->"7bfce92d-df91-4bed-b587-8e8a2a6f1483",
+ CellID->24633067]
 }, Open  ]]
 }, Open  ]]
 }

@@ -1,0 +1,71 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2214,         63]
+NotebookOptionsPosition[      1613,         45]
+NotebookOutlinePosition[      2046,         61]
+CellTagsIndexPosition[      2003,         58]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Capitalize", "[", 
+  RowBox[{
+  "\"\<Finding the shortest tour through large cities in countries with 30 or \
+more large cities\>\"", ",", "\"\<TitleCase\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8934460627369757`*^9, 3.893446081116129*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"a84deb28-825e-4bdc-9c99-e5ab27462325"],
+
+Cell[BoxData["\<\"Finding the Shortest Tour through Large Cities in Countries \
+with 30 or More Large Cities\"\>"], "Output",
+ CellChangeTimes->{{3.893446067502096*^9, 3.8934460815141644`*^9}},
+ CellLabel->"Out[3]=",ExpressionUUID->"879b72e2-f06c-4ef9-8904-ece74b37356b"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"CopyToClipboard", "[", 
+  RowBox[{"Capitalize", "[", 
+   RowBox[{
+   "\"\<Finding the shortest tour through large cities in countries with 30 \
+or more large cities\>\"", ",", "\"\<TitleCase\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.893446083484846*^9, 3.8934460870109177`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"3e730169-758a-4ab1-bd9b-a84182ce46d7"]
+},
+WindowSize->{595.1999999999999, 585.6},
+WindowMargins->{{Automatic, -67.20000000000005}, {Automatic, 39}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"9b81d7ae-60b3-49fa-901a-8663417e8ec5"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 348, 6, 67, "Input",ExpressionUUID->"a84deb28-825e-4bdc-9c99-e5ab27462325"],
+Cell[931, 30, 271, 3, 52, "Output",ExpressionUUID->"879b72e2-f06c-4ef9-8904-ece74b37356b"]
+}, Open  ]],
+Cell[1217, 36, 392, 7, 118, "Input",ExpressionUUID->"3e730169-758a-4ab1-bd9b-a84182ce46d7"]
+}
+]
+*)
+

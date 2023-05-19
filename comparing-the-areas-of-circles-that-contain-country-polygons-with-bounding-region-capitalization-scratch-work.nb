@@ -1,0 +1,64 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      1703,         54]
+NotebookOptionsPosition[      1229,         37]
+NotebookOutlinePosition[      1631,         53]
+CellTagsIndexPosition[      1588,         50]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Capitalize", "[", 
+  RowBox[{
+  "\"\<Comparing the Areas of Circles that contain country polygons with \
+BoundingRegion\>\"", ",", "\"\<TitleCase\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.8934431909873157`*^9, 3.89344319913356*^9}, {
+  3.893443241701187*^9, 3.893443246339242*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"40a1263f-9390-4064-98ef-b91c76edc7b1"],
+
+Cell[BoxData["\<\"Comparing the Areas of Circles that Contain Country \
+Polygons with BoundingRegion\"\>"], "Output",
+ CellChangeTimes->{3.8934432466492434`*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"48d1efb4-58cb-4d39-942d-1e6835b7bab1"]
+}, Open  ]]
+},
+WindowSize->{531., 585.6},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 31, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"28537a44-7859-470b-aec6-3354a37bc7f4"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 388, 7, 86, "Input",ExpressionUUID->"40a1263f-9390-4064-98ef-b91c76edc7b1"],
+Cell[974, 31, 239, 3, 77, "Output",ExpressionUUID->"48d1efb4-58cb-4d39-942d-1e6835b7bab1"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
